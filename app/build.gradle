@@ -19,9 +19,9 @@ plugins {
 sonarqube {
   properties {
     property "sonar.projectKey", "gradleApp"
-    systemProp.sonar.host.url="http://localhost:9000"
-    systemProp.sonar.login=admin
-    systemProp.sonar.password=octobit8
+    property "sonar.host.url", "http://localhost:9000"
+    property "sonar.login", "admin"
+    property "sonar.password", "octobit8"
   }
 }
 
