@@ -20,8 +20,8 @@ sonarqube {
   properties {
     property "sonar.projectKey", "gradleApp"
     property "sonar.host.url", "http://localhost:9000"
-    property "sonar.login", "admin"
-    property "sonar.password", "octobit8"
+    property "sonar.login", "sqp_b8b975b0f342a382330d1d01d7f4095df31b7c02"
+    
   }
 }
 
