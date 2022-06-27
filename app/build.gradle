@@ -12,6 +12,17 @@ plugins {
     id 'application'
 }
 
+plugins {
+  id "org.sonarqube" version "3.4.0.2513"
+}
+
+sonarqube {
+  properties {
+    property "sonar.projectKey", "gradleApp"
+  }
+}
+
+
 repositories {
     // Use Maven Central for resolving dependencies.
     mavenCentral()
@@ -37,12 +48,3 @@ application {
     mainClass = 'gradleApp.App'
 }
 
-plugins {
-  id "org.sonarqube" version "3.4.0.2513"
-}
-
-sonarqube {
-  properties {
-    property "sonar.projectKey", "gradleApp"
-  }
-}
