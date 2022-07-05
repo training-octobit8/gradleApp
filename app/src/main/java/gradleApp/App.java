@@ -5,7 +5,7 @@ package gradleApp;
 
 public class App {
     public String getGreeting() {
-        return "Hello Jenkins DevOps World!";
+        return "Hello Jenkins from GitHub!";
     }
 
     public static void main(String[] args) {
