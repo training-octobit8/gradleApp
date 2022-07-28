@@ -1,6 +1,6 @@
 node {
   stage('SCM') {
-    checkout scm
+    sh "git clone https://github.com/training-octobit8/gradleApp.git"
   }
   stage('SonarQube Analysis') {
     withSonarQubeEnv() {
